@@ -192,6 +192,8 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.11.1)
+    rspec_junit_formatter (0.6.0)
+      rspec-core (>= 2, < 4, != 2.12.0)
     rubyzip (2.3.2)
     selenium-webdriver (4.5.0)
       childprocess (>= 0.5, < 5.0)
@@ -247,6 +249,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.4)
   rspec-rails
+  rspec_junit_formatter
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
